@@ -39,10 +39,10 @@ ENV PYTHONPATH=$PYTHONPATH:/models/research/slim
 ENV PYTHONPATH=$PYTHONPATH:/models/research
 
 # clone the flask application
-RUN git clone https://github.com/Syze/ml-tensorflow-person-detection.git
+RUN git clone https://github.com/engineeve/tensorflow_object_detection.git
 
 # set this as the working directory
-WORKDIR /ml-tensorflow-person-detection
+WORKDIR /tensorflow_object_detection
 
 # download the pretrained model
 # change here to download your pretrained model
