@@ -13,7 +13,7 @@ from collections import defaultdict
 from io import StringIO
 
 import matplotlib
-matplotlib.use('TkAgg')
+# matplotlib.use('TkAgg')
 from matplotlib import pyplot as plt
 
 import cv2
